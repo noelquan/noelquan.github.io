@@ -16,6 +16,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
 
+    <!-- Google reCaptcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
     <title>Noel Quan</title>
   </head>
   <body>
@@ -43,7 +46,9 @@
     <div class="form-group">
       <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
     </div>
-    <button type="submit" class="btn btn-primary" style="cursor:pointer">Submit</button>
+    <!-- Google reCaptcha -->
+    <div class="g-recaptcha" data-sitekey="6LfiM3IUAAAAAMNSkn9QLYeoKlO61rsFgu5QyTh2"></div>
+        <button type="submit" class="btn btn-primary" style="cursor:pointer">Submit</button>
   </form>
 </div>
 
