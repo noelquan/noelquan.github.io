@@ -258,7 +258,6 @@ a:hover {
 .footer {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-style: italic;
 }
 
 @media (max-width: 600px) {
