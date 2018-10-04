@@ -47,7 +47,7 @@ var cardsToTemplates = function (cards) {
     return templates;
 };
 
-loadJSON('https://api.trello.com/1/boards/Bbqg0wNb/cards', function (cards) {
+loadJSON('https://api.trello.com/1/boards/x9evdJQE/cards', function (cards) {
     var templates = cardsToTemplates(cards);
     
     for (var i = 0; i < templates.length; i++) {
